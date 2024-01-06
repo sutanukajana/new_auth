@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('fronted.welcome');
+    return view('frontend.welcome');
 });
 
 Auth::routes();
